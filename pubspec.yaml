@@ -23,6 +23,7 @@ dependencies:
   dio: ^1.0.0
   english_words: ^3.1.0
   fluttertoast: ^2.0.0
+  flutter_statusbar_manager: ^1.0.0
 
 dev_dependencies:
   flutter_test:
@@ -45,6 +46,7 @@ flutter:
     - assets/images/tab.png
     - assets/images/banner.png
     - assets/images/list.png
+    - assets/images/banner_top.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
