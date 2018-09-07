@@ -7,6 +7,15 @@ class Home extends StatelessWidget {
     return new Scaffold(
       appBar: new AppBar(
         title: new Text('30天Flutter学习'),
+        actions: <Widget>[
+          new IconButton(
+            icon: new Icon(
+              Icons.dashboard,
+              color: Colors.white,
+            ),
+            onPressed: null
+          )
+        ],
       ),
 
       body: new ListView.builder(
