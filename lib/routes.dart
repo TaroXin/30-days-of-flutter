@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import './day1/index.dart';
 import './day2/index.dart';
+import './day3/index.dart';
 
 final routes = {
   'day1': (BuildContext context) => new Day1(),
   'day2': (BuildContext context) => new Day2(),
+  'day3': (BuildContext context) => new Day3(),
 };
 
 final routesDescription = [
@@ -18,5 +20,11 @@ final routesDescription = [
     'key': 'Day 2',
     'title': 'Banner 示例',
     'icon': 'assets/images/banner.png',
+  },
+
+  {
+    'key': 'Day 3',
+    'title': 'ListView相关使用',
+    'icon': 'assets/images/list.png',
   },
 ];
