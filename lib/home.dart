@@ -25,6 +25,7 @@ class Home extends StatelessWidget {
           final key = routesDescription[index]['key'];
           final title = routesDescription[index]['title'];
           final icon = routesDescription[index]['icon'];
+
           return new ListTile(
             leading: new Image(
               image: new AssetImage(icon),

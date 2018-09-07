@@ -51,6 +51,13 @@
             </list>
           </value>
         </entry>
+        <entry key="cookie_jar">
+          <value>
+            <list>
+              <option value="/usr/local/flutter/.pub-cache/hosted/pub.flutter-io.cn/cookie_jar-0.0.6/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="crypto">
           <value>
             <list>
@@ -69,6 +76,13 @@
           <value>
             <list>
               <option value="/usr/local/flutter/.pub-cache/hosted/pub.flutter-io.cn/cupertino_icons-0.1.2/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="dio">
+          <value>
+            <list>
+              <option value="/usr/local/flutter/.pub-cache/hosted/pub.flutter-io.cn/dio-1.0.4/lib" />
             </list>
           </value>
         </entry>
@@ -338,6 +352,13 @@
             </list>
           </value>
         </entry>
+        <entry key="transparent_image">
+          <value>
+            <list>
+              <option value="/usr/local/flutter/.pub-cache/hosted/pub.flutter-io.cn/transparent_image-0.1.0/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="typed_data">
           <value>
             <list>
@@ -397,9 +418,11 @@
       <root url="file:///usr/local/flutter/.pub-cache/hosted/pub.flutter-io.cn/charcode-1.1.2/lib" />
       <root url="file:///usr/local/flutter/.pub-cache/hosted/pub.flutter-io.cn/collection-1.14.11/lib" />
       <root url="file:///usr/local/flutter/.pub-cache/hosted/pub.flutter-io.cn/convert-2.0.2/lib" />
+      <root url="file:///usr/local/flutter/.pub-cache/hosted/pub.flutter-io.cn/cookie_jar-0.0.6/lib" />
       <root url="file:///usr/local/flutter/.pub-cache/hosted/pub.flutter-io.cn/crypto-2.0.6/lib" />
       <root url="file:///usr/local/flutter/.pub-cache/hosted/pub.flutter-io.cn/csslib-0.14.5/lib" />
       <root url="file:///usr/local/flutter/.pub-cache/hosted/pub.flutter-io.cn/cupertino_icons-0.1.2/lib" />
+      <root url="file:///usr/local/flutter/.pub-cache/hosted/pub.flutter-io.cn/dio-1.0.4/lib" />
       <root url="file:///usr/local/flutter/.pub-cache/hosted/pub.flutter-io.cn/front_end-0.1.4/lib" />
       <root url="file:///usr/local/flutter/.pub-cache/hosted/pub.flutter-io.cn/glob-1.1.7/lib" />
       <root url="file:///usr/local/flutter/.pub-cache/hosted/pub.flutter-io.cn/html-0.13.3+3/lib" />
@@ -435,6 +458,7 @@
       <root url="file:///usr/local/flutter/.pub-cache/hosted/pub.flutter-io.cn/string_scanner-1.0.4/lib" />
       <root url="file:///usr/local/flutter/.pub-cache/hosted/pub.flutter-io.cn/term_glyph-1.0.1/lib" />
       <root url="file:///usr/local/flutter/.pub-cache/hosted/pub.flutter-io.cn/test-1.3.0/lib" />
+      <root url="file:///usr/local/flutter/.pub-cache/hosted/pub.flutter-io.cn/transparent_image-0.1.0/lib" />
       <root url="file:///usr/local/flutter/.pub-cache/hosted/pub.flutter-io.cn/typed_data-1.1.6/lib" />
       <root url="file:///usr/local/flutter/.pub-cache/hosted/pub.flutter-io.cn/utf-0.9.0+5/lib" />
       <root url="file:///usr/local/flutter/.pub-cache/hosted/pub.flutter-io.cn/vector_math-2.0.8/lib" />

@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 class Day1 extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    return new Day1State();
+    return new _Day1State();
   }
 }
 
-class Day1State extends State<Day1> {
+class _Day1State extends State<Day1> {
   int _currentPageIndex = 0;
   int _pageCount = 4;
   List<BottomNavigationBarItem> items;
