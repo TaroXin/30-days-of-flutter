@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a10b9335-f947-4427-9195-606b6a9a9a22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/day2/index.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/day1/index.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/day1/index.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/home.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/routes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/routes.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/day2/banner.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/day2/banner.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -46,14 +40,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dart" value="6017" />
+          <entry key="dart" value="6064" />
           <entry key="gitignore" value="8" />
           <entry key="yaml" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Dart" value="6017" />
+          <entry key="Dart" value="6064" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="YAML" value="76" />
         </counts>
@@ -86,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/day2/banner.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="709">
-              <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+            <state relative-caret-position="451">
+              <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -204,7 +198,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536312442685" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536313702912" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -271,7 +265,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" weight="0.22554745" />
       <window_info anchor="bottom" id="Find" />
-      <window_info anchor="bottom" id="Terminal" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" weight="0.2" />
       <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Ant Build" />
@@ -392,8 +386,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/day2/banner.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+        <state relative-caret-position="451">
+          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

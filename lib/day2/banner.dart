@@ -31,24 +31,27 @@ class _BannerComponentState extends State<BannerComponent> {
 
   void autoRun() {
     Future.delayed(new Duration(seconds: 3), () {
-      if (_activeIndex == bannerList.length - 1) {
-        _activeIndex = 0;
-      } else {
-        _activeIndex += 1;
+      // 判断当前页面的状态，mounted代表当前页面是聚焦状态
+      if (mounted) {
+        if (_activeIndex == bannerList.length - 1) {
+          _activeIndex = 0;
+        } else {
+          _activeIndex += 1;
+        }
+
+        _pageController.animateToPage(
+            _activeIndex,
+            duration: new Duration(milliseconds: 500),
+            curve: Curves.easeInOut
+        );
+
+        // 在这里才调用setState是为了切换后才改变UI的状态
+        setState(() {
+          _activeIndex = _activeIndex;
+        });
+
+        autoRun();
       }
-
-      _pageController.animateToPage(
-        _activeIndex,
-        duration: new Duration(milliseconds: 500),
-        curve: Curves.easeInOut
-      );
-
-      // 在这里才调用setState是为了切换后才改变UI的状态
-      setState(() {
-        _activeIndex = _activeIndex;
-      });
-
-      autoRun();
     });
   }
 
