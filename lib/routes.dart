@@ -33,6 +33,6 @@ final routesDescription = [
   {
     'key': 'Day 4',
     'title': '自定义导航栏',
-    'icon': 'assets/images/list.png',
+    'icon': 'assets/images/nav.png',
   },
 ];
