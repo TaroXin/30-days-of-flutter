@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 import './transparentAppBar.dart';
 import './transparentScaffold.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 class Day4 extends StatefulWidget {
   @override
@@ -37,7 +38,11 @@ class _Day4State extends State<Day4> {
             Icons.share,
             color: Colors.white,
           ),
-          onPressed: () {}
+          onPressed: () {
+            Fluttertoast.showToast(
+              msg: '点击分享按钮'
+            );
+          }
         ),
       ),
       

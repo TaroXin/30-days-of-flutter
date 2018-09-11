@@ -48,6 +48,7 @@ flutter:
     - assets/images/list.png
     - assets/images/banner_top.jpeg
     - assets/images/nav.png
+    - assets/images/btm_nav.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
