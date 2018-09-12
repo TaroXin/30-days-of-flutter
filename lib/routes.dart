@@ -4,6 +4,7 @@ import './day2/index.dart';
 import './day3/index.dart';
 import './day4/index.dart';
 import './day5/index.dart';
+import './day6/index.dart';
 
 final routes = {
   'day1': (BuildContext context) => new Day1(),
@@ -11,6 +12,7 @@ final routes = {
   'day3': (BuildContext context) => new Day3(),
   'day4': (BuildContext context) => new Day4(),
   'day5': (BuildContext context) => new Day5(),
+  'day6': (BuildContext context) => new Day6(),
 };
 
 final routesDescription = [
@@ -41,6 +43,12 @@ final routesDescription = [
   {
     'key': 'Day 5',
     'title': '自定义底部导航栏',
+    'icon': 'assets/images/btm_nav.png',
+  },
+
+  {
+    'key': 'Day 6',
+    'title': 'Flutter动画入门',
     'icon': 'assets/images/btm_nav.png',
   },
 ];

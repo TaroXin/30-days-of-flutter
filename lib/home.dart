@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import './routes.dart';
+import './router/index.dart';
+import './application.dart';
+import 'package:fluro/fluro.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -19,12 +21,13 @@ class Home extends StatelessWidget {
       ),
 
       body: new ListView.builder(
-        itemCount: routes.length,
+        itemCount: RouterManager.routes.length,
         itemBuilder: (context, index) {
-          final routeName = routes.keys.toList()[index];
-          final key = routesDescription[index]['key'];
-          final title = routesDescription[index]['title'];
-          final icon = routesDescription[index]['icon'];
+          final route = RouterManager.routes[RouterManager.routes.keys.toList()[index]];
+          final routeName = route['routerName'];
+          final key = route['key'];
+          final title = route['title'];
+          final icon = route['icon'];
 
           return new ListTile(
             leading: new Image(
@@ -35,7 +38,7 @@ class Home extends StatelessWidget {
             title: new Text(title),
             subtitle: new Text(key),
             onTap: () {
-              Navigator.of(context).pushNamed(routeName);
+              Application.router.navigateTo(context, routeName, transition: TransitionType.inFromRight);
             },
           );
         },
