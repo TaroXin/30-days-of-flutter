@@ -7,6 +7,7 @@ import '../day4/index.dart';
 import '../day5/index.dart';
 import '../day6/index.dart';
 import '../day7/index.dart';
+import '../day8/index.dart';
 
 class RouterManager {
   static String day1 = '/day1';
@@ -16,7 +17,7 @@ class RouterManager {
   static String day5 = '/day5';
   static String day6 = '/day6';
   static String day7 = '/day7';
-
+  static String day8 = '/day8';
 
   static final routes = {
     'day1': {
@@ -67,6 +68,13 @@ class RouterManager {
       'key': 'Day7',
       'title': 'Backdrop示例',
       'icon': 'assets/images/backdrop.png',
+    },
+    'day8': {
+      'routerName': day8,
+      'handler': day8Handler,
+      'key': 'Day8',
+      'title': 'Flexible appbar 示例',
+      'icon': 'assets/images/toolbar.png',
     },
   };
 
@@ -120,7 +128,13 @@ var day6Handler = new Handler(
 );
 
 var day7Handler = new Handler(
-    handlerFunc: (context, params) {
-      return new Day7();
-    }
+  handlerFunc: (context, params) {
+    return new Day7();
+  }
+);
+
+var day8Handler = new Handler(
+  handlerFunc: (context, params) {
+    return new Day8();
+  }
 );

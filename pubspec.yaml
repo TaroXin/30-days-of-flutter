@@ -52,6 +52,8 @@ flutter:
     - assets/images/btm_nav.png
     - assets/images/animate.png
     - assets/images/backdrop.png
+    - assets/images/toolbar.png
+    - assets/images/scarlett.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
