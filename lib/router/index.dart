@@ -6,6 +6,7 @@ import '../day3/index.dart';
 import '../day4/index.dart';
 import '../day5/index.dart';
 import '../day6/index.dart';
+import '../day7/index.dart';
 
 class RouterManager {
   static String day1 = '/day1';
@@ -14,6 +15,7 @@ class RouterManager {
   static String day4 = '/day4';
   static String day5 = '/day5';
   static String day6 = '/day6';
+  static String day7 = '/day7';
 
 
   static final routes = {
@@ -57,6 +59,13 @@ class RouterManager {
       'handler': day6Handler,
       'key': 'Day6',
       'title': 'Flutter 动画入门, AnimationList示例',
+      'icon': 'assets/images/btm_nav.png',
+    },
+    'day7': {
+      'routerName': day7,
+      'handler': day7Handler,
+      'key': 'Day7',
+      'title': 'Backdrop示例',
       'icon': 'assets/images/btm_nav.png',
     },
   };
@@ -108,4 +117,10 @@ var day6Handler = new Handler(
   handlerFunc: (context, params) {
     return new Day6();
   }
+);
+
+var day7Handler = new Handler(
+    handlerFunc: (context, params) {
+      return new Day7();
+    }
 );
