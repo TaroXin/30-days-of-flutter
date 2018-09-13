@@ -56,7 +56,7 @@ class RouterManager {
       'routerName': day6,
       'handler': day6Handler,
       'key': 'Day6',
-      'title': 'Flutter 动画入门',
+      'title': 'Flutter 动画入门, AnimationList示例',
       'icon': 'assets/images/btm_nav.png',
     },
   };
