@@ -39,7 +39,8 @@ class Home extends StatelessWidget {
             subtitle: new Text(key),
             trailing: new Icon(Icons.keyboard_arrow_right),
             onTap: () {
-              Application.router.navigateTo(context, routeName, transition: TransitionType.inFromRight);
+//              Application.router.navigateTo(context, routeName, transition: TransitionType.inFromRight);
+              Application.router.navigateTo(context, routeName);
             },
           );
         },
