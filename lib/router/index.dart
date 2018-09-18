@@ -10,6 +10,7 @@ import '../day7/index.dart';
 import '../day8/index.dart';
 import '../day9/index.dart';
 import '../day10/index.dart';
+import '../day11/index.dart';
 
 class RouterManager {
   static String day1 = '/day1';
@@ -22,6 +23,7 @@ class RouterManager {
   static String day8 = '/day8';
   static String day9 = '/day9';
   static String day10 = '/day10';
+  static String day11 = '/day11';
 
   static final routes = {
     'day1': {
@@ -92,6 +94,13 @@ class RouterManager {
       'handler': day10Handler,
       'key': 'Day10',
       'title': '扫描二维码示例',
+      'icon': 'assets/images/scanner.png',
+    },
+    'day11': {
+      'routerName': day11,
+      'handler': day11Handler,
+      'key': 'Day11',
+      'title': '示例',
       'icon': 'assets/images/scanner.png',
     },
   };
@@ -166,5 +175,11 @@ var day9Handler = new Handler(
 var day10Handler = new Handler(
   handlerFunc: (context, params) {
     return new Day10();
+  }
+);
+
+var day11Handler = new Handler(
+  handlerFunc: (context, params) {
+    return new Day11();
   }
 );

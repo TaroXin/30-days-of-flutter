@@ -49,7 +49,7 @@ class _Day10State extends State<Day10> {
         height: 400.0,
         child: new Center(
           child: new Column(
-            children: <Widget>[
+            children: <Widget>[ // 北京丨海淀 北京 | 海淀
               new MaterialButton(
                 child: new Text('扫描二维码'),
                 onPressed: scan
