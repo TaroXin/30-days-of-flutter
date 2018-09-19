@@ -109,8 +109,8 @@ class RouterManager {
       'routerName': day12,
       'handler': day12Handler,
       'key': 'Day12',
-      'title': '示例',
-      'icon': 'assets/images/playlist.png',
+      'title': '左划菜单示例',
+      'icon': 'assets/images/swipe_menu.png',
     },
   };
 
