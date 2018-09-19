@@ -212,7 +212,7 @@ class _Day11State extends State<Day11> {
                     ),
 
                     new Container(
-                      height: 56.0,
+                      height: 48.0,
                       padding: EdgeInsets.symmetric(horizontal: 16.0),
                       decoration: new BoxDecoration(
                         borderRadius: BorderRadius.only(topRight: Radius.circular(16.0)),
@@ -253,7 +253,83 @@ class TrackList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     if (tracks.length > 0) {
-      return new Container();
+      return new Column(
+        children: tracks.map((track) {
+          final index = tracks.indexOf(track);
+          String singer = '';
+          singer = track['ar'].map((arItem) {
+            return arItem['name'];
+          }).toList().join('/');
+
+          return new MaterialButton(
+            padding: EdgeInsets.zero,
+            onPressed: () {},
+            child: new Container(
+                height: 55.0,
+                child: new Row(
+                  children: <Widget>[
+                    new Container(
+                      width: 55.0,
+                      child: new Center(
+                        child: new Text(
+                          (index + 1).toString(),
+                          style: new TextStyle(
+                            color: Color(0xFFC0C0C0),
+                            fontSize: 16.0,
+                            fontWeight: FontWeight.w400,
+                          ),
+                        ),
+                      ),
+                    ),
+
+                    new Expanded(
+                      child: new Container(
+                        height: 55.0,
+                        decoration: new BoxDecoration(
+                            border: Border(bottom: BorderSide(color: Color(0xFFEBEBEB), width: 0.5))
+                        ),
+                        child: new Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: <Widget>[
+                            new Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: <Widget>[
+                                new Container(
+                                  width: 300.0,
+                                  child: new Text(
+                                    track['name'],
+                                    overflow: TextOverflow.ellipsis,
+                                  ),
+                                ),
+
+                                new Container(
+                                  width: 300.0,
+                                  child: new Text(
+                                    singer,
+                                    overflow: TextOverflow.ellipsis,
+                                    style: new TextStyle(
+                                      color: Color(0xFFC0C0C0),
+                                      fontSize: 12.0
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+
+                            new IconButton(
+                                icon: Icon(Icons.more_vert, color: Color(0xFFC0C0C0)),
+                                onPressed: () {}
+                            )
+                          ],
+                        ),
+                      ),
+                    )
+                  ],
+                )
+            ),
+          );
+        }).toList(),
+      );
     } else {
       return new Container(
         child: new Row(

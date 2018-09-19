@@ -100,8 +100,8 @@ class RouterManager {
       'routerName': day11,
       'handler': day11Handler,
       'key': 'Day11',
-      'title': '示例',
-      'icon': 'assets/images/scanner.png',
+      'title': '网易云歌单详情页面模仿',
+      'icon': 'assets/images/playlist.png',
     },
   };
 
