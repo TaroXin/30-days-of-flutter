@@ -11,6 +11,7 @@ import '../day8/index.dart';
 import '../day9/index.dart';
 import '../day10/index.dart';
 import '../day11/index.dart';
+import '../day12/index.dart';
 
 class RouterManager {
   static String day1 = '/day1';
@@ -24,6 +25,7 @@ class RouterManager {
   static String day9 = '/day9';
   static String day10 = '/day10';
   static String day11 = '/day11';
+  static String day12 = '/day12';
 
   static final routes = {
     'day1': {
@@ -101,6 +103,13 @@ class RouterManager {
       'handler': day11Handler,
       'key': 'Day11',
       'title': '网易云歌单详情页面模仿',
+      'icon': 'assets/images/playlist.png',
+    },
+    'day12': {
+      'routerName': day12,
+      'handler': day12Handler,
+      'key': 'Day12',
+      'title': '示例',
       'icon': 'assets/images/playlist.png',
     },
   };
@@ -181,5 +190,11 @@ var day10Handler = new Handler(
 var day11Handler = new Handler(
   handlerFunc: (context, params) {
     return new Day11();
+  }
+);
+
+var day12Handler = new Handler(
+  handlerFunc: (context, params) {
+    return new Day12();
   }
 );
