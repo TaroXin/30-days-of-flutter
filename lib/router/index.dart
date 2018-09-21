@@ -118,8 +118,8 @@ class RouterManager {
       'routerName': day13,
       'handler': day13Handler,
       'key': 'Day13',
-      'title': '示例',
-      'icon': 'assets/images/swipe_menu.png',
+      'title': '图表简单示例',
+      'icon': 'assets/images/charts.png',
     },
   };
 

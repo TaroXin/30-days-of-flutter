@@ -27,6 +27,7 @@ dependencies:
   fluro: ^1.3.4
   barcode_scan: ^0.0.7
   flutter_spinkit: ^2.1.0
+  charts_flutter: ^0.4.0
 
 dev_dependencies:
   flutter_test:
@@ -63,6 +64,7 @@ flutter:
     - assets/images/playlist.png
     - assets/images/avatar.png
     - assets/images/swipe_menu.png
+    - assets/images/charts.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
